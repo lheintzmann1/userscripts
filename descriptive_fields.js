@@ -1,8 +1,10 @@
 // ==UserScript==
 // @name         Descriptive fields
+// @namespace    https://github.com/lheintzmann1
 // @version      1.0
 // @description  Adds descriptive placeholders to input and textarea fields, including inside Shadow DOM.
 // @author       lheintzmann1
+// @license      MIT
 // @downloadURL  https://raw.githubusercontent.com/lheintzmann1/userscripts/refs/heads/main/descriptive_fields.js
 // @updateURL    https://raw.githubusercontent.com/lheintzmann1/userscripts/refs/heads/main/descriptive_fields.js
 // @match        *://*/*
