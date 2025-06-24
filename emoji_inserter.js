@@ -283,10 +283,11 @@
 
     window.showAvailableEmojis = function() {
         const emojiList = Object.keys(emojiMap).map(name => `:${name}: ${emojiMap[name]}`).join('\n');
-        console.log('Émojis disponibles:\n' + emojiList);
+        console.log('Available emojis:\n' + emojiList);
     };
 
-    console.log('Discord Emoji Inserter activé! Tapez :nom: pour insérer des émojis.');
-    console.log('Utilisez showAvailableEmojis() dans la console pour voir la liste complète.');
+    console.log('Emoji Inserter script loaded. Emojis will be automatically replaced in text fields and text areas.');
+    console.log('You can use the syntax :emoji_name: to insert emojis.');
+    console.log('To see available emojis, call showAvailableEmojis() in the console.');
 
 })();
